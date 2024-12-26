@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import pageObjects.MyAccountPage;
-import testBase.BaseClass1;
+import testBase.BaseClass;
 import utilities.DataProviders;
 
 
@@ -17,7 +17,7 @@ Data is invalid - login success - test fail  - logout
 Data is invalid -- login failed - test pass
 */
 
-public class TC_003_LoginDDT extends BaseClass1
+public class TC_003_LoginDDT extends BaseClass
 {
 
 	@Test(dataProvider="LoginData",dataProviderClass=DataProviders.class)

@@ -14,14 +14,14 @@
     </classes>
   </test> <!-- Test -->
   
-  <!--
+  
   <test name="firefoxtest">
    	<parameter name="os" value="Windows" />
   	<parameter name="browser"  value="firefox"/>  
     <classes>
       <class name="testCases.TC001_AccountRegistrationTest"/>
     </classes>
-  </test> -->
+  </test>
   
   
   <test name="edgetest">

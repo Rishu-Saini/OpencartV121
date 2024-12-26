@@ -5,9 +5,9 @@ import org.testng.annotations.Test;
 
 import pageObjects.AccountRegistrationPage;
 import pageObjects.HomePage;
-import testBase.BaseClass1;
+import testBase.BaseClass;
 
-public class TC_001_AccountRegistrationtTest extends BaseClass1
+public class TC_001_AccountRegistrationtTest extends BaseClass
 {
 	@Test(groups= {"Regression","Master"}) //Step8 groups added
 	public void test_account_Registration() throws InterruptedException
